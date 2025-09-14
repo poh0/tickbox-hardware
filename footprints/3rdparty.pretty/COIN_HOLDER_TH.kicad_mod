@@ -54,6 +54,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -7 -5.5)
+		(end 7 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aefc48c2-c811-446e-a0ce-ccfa3adb1cc9")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.5 0)
 		(unlocked yes)
@@ -66,15 +77,7 @@
 			)
 		)
 	)
-	(pad "GND" thru_hole circle
-		(at 0 -3.4)
-		(size 2.2 2.2)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c759a046-578a-4310-afa0-622c09351624")
-	)
-	(pad "VDD" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -5 0)
 		(size 2.2 2.2)
 		(drill 1.2)
@@ -82,13 +85,21 @@
 		(remove_unused_layers no)
 		(uuid "089d7d31-ffb4-46c8-b4fe-e2d51c566cbd")
 	)
-	(pad "VDD" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 5 0)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4fcff1df-a6d6-416b-9df6-442046733a44")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -3.4)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c759a046-578a-4310-afa0-622c09351624")
 	)
 	(embedded_fonts no)
 )
